@@ -1,0 +1,193 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-image: url("background.png");
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(52, 121, 250);
+	padding: 10px;
+}
+
+li{
+	display: inline;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+	
+
+}
+
+a:hover{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding-left: 30px;
+	background-color: black;
+}
+
+#i-love-you{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i-love-you h1{
+	text-align: center;
+	color: white;
+-webkit-text-stroke: 1px black;
+}
+
+#i-love-you p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#i-love-you img{
+	height: 400px;
+	margin-right: 150px;
+	border-radius: 15px;
+}
+
+#story{
+	margin-top: 20 px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#story p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#story img{
+	height: 400px;
+	margin-left: 150px;
+	border-radius: 15px;
+}
+
+
+#eye{
+	margin-top: 20 px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#eye p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#eye img{
+	height: 290px;
+	margin-right: 150px;
+	border-radius: 110px;
+}
+
+#firstdate{
+	margin-top: 60 px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#firstdate p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#sorry{
+	margin-top: 60 px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#sorry p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#sorry video{
+	height: 200px;
+	margin-left: 150px;
+	border-radius: 15px;
+}
+
+#teamo{
+	margin-top: 20 px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#teamo p{
+	text-align: center;
+	color: white;
+	display: flex;
+	margin: 70px;
+	text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+#teamo img{
+	height: 290px;
+	margin-right: 150px;
+	border-radius: 15px;
+}
+
+.unique{
+	font-size: 70px;
+	text-align: center;
+	animation: 4s infinite anim;
+}
+
+@keyframes anim{
+	0%{
+		color: rgb(000, 000, 000);
+	}10%{
+		color: rgb(253, 0, 0);
+	}20%{
+		color: rgb(255, 174, 0);
+	}30%{
+		color: rgb(102, 255, 0);
+	}40%{
+		color: rgb(0, 252, 126);
+	}50%{
+		color: rgb(0, 195, 255);
+	}60%{
+		color: rgb(0, 89, 255);
+	}70%{
+		color: rgb(17, 0, 255);
+	}80%{
+		color: rgb(98, 0, 255);
+	}90%{
+		color: rgb(255, 0, 221);
+	}100%{
+		color: rgb(245, 0, 0);
+	}
+}
